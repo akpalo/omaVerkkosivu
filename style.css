@@ -1,0 +1,164 @@
+:root {
+    --color-dark-grey: #111111;
+    --color-light-yellow: #FBF8CC;
+    --color-yellow: #F5EE84;
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-light-yellow);
+    color: var(--color-dark-grey);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+
+}
+
+section {
+    margin-bottom: 64px;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+    padding: 16px 0;
+    position: fixed;
+    background-color: var(--color-light-yellow);
+    width: 100%;
+}
+
+.title {
+    margin: 8px 0px;
+    max-width: 400px;
+    line-height: 1.2;
+}
+
+.landing-section {
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0;
+    font-weight: 800;
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1
+}
+
+strong {
+    font-weight: 600;
+}
+
+.profile-pic {
+    width: 260px;
+    border: 1px solid var(--color-dark-grey);
+    border-radius: 50%;
+}
+
+.puhelin-Img {
+    width: 300px;
+}
+
+.container {
+    max-width: 996px;
+}
+
+button {
+    background-color: #F5EE84;
+    padding: 8px;
+    border: 1px solid var(--color-dark-grey);
+    border-radius: 4px;
+}
+
+.button-wrapper:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button-wrapper {
+    display: inline-table;
+    position: relative;
+}
+
+.button-background {
+    width: 100%;
+    height: 100%;
+    background: var(--color-yellow);
+    position: absolute;
+    z-index: -1;
+    top: 4px;
+    left: 4px;
+}
+
+.profile-pic-wrapper {
+    position: relative;
+    width: 260px;
+}
+
+.slashes {
+    position: absolute;
+    top: 200px;
+}
+
+.profile-pic-border {
+    width: 260px;
+    height: 260px;
+    border: 1px solid var(--color-dark-grey);
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: -8px;
+}
+
+.plus1,
+.plus2,
+.plus3 {
+    position: absolute;
+}
+
+.plus1 {
+    top: 3px;
+    right: 15px;
+}
+
+.plus2 {
+    top: -9px;
+    right: 26px;
+}
+
+.plus3 {
+    top: -22px;
+    right: 15px;
+}
+
+@media (max-width: 576px) {
+    .landing-section {
+        flex-direction: column;
+    }
+}
+
+.puhelin-Img {
+    background-color: transparent;
+}
+

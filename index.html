@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Koti</a>
+        <a href="#contact">Ota yhteyttä!</a>
+    </nav>
+    <h1>Hei! Olen Akseli ja tämä on minun ensimmäinen itselleni tekemä verkkosivu!</h1>
+    <h2>Taidot</h2>
+    <ul>
+        <li>HTML</li>
+        <li>css</li>
+        <li>JS</li>
+        <li>React</li>
+        <li>Git</li>
+    </ul>
+    <a href="https://app.gumroad.com/d/c4ff0f75d001e4096fd4466d08963c27">Verkkosivu</a>
+    <p>Tähän kuva meitsistä</p>
+    <table>
+        <tr>
+            <th>Nimi</th>
+            <th>Ikä</th>
+            <th>Maa</th>
+        </tr>
+        <tr>
+            <td>Akseli</td>
+            <td>25</td>
+            <td>Suomi</td>
+        </tr>
+        <tr>
+            <td>Akseli</td>
+            <td>30</td>
+            <td>Ruotsi</td>
+        </tr>
+    </table>
+    <form id="contact" action="{{URL}}">
+        <label for="firstName" id="firstName">First name</label>
+        <input name="firstName" placeholder="First name">
+        <label for="email">Email</label>
+        <input name="email" id="email" placeholder="Email">
+        <select name="level">
+            <option value="1">Junior</option>
+            <option value="2">Mid</option>
+            <option value="3">Senior</option>
+        </select>
+        <label for="isOver18">on yli 18</label>
+        <input type="checkbox" name="isOver18" id="isOver18"/>
+        <label for="overage">Kyllä</label>
+        <input name="overage" type="radio" value="yes" />
+        <label for="overage">Ei</label>
+        <input name="overage" type="radio" value="no" />
+        <button>Lähetä!</button>
+    </form>
+</body>
+
+</html>
